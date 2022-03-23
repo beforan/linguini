@@ -2,12 +2,12 @@
   "name": "linguini",
   "version": "1.0.0",
   "description": "A node.js cli tool for converting between i18next style json resources and xlsx files to send for localisation",
-  "module": "main.js",
+  "module": "app/main.js",
   "type": "module",
   "scripts": {
     "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
+    "start": "node app/main.js"
   },
   "repository": {
     "type": "git",
