@@ -21,10 +21,14 @@
   "homepage": "https://github.com/beforan/linguini#readme",
   "dependencies": {
     "commander": "^9.0.0",
+    "enquirer": "^2.3.6",
     "excel4node": "^1.2.1",
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "mkdirp": "^1.0.4",
+    "xlsx": "^0.18.4"
   },
   "devDependencies": {
+    "@types/xlsx": "^0.0.36",
     "eslint": "^8.4.1",
     "husky": "^7.0.0",
     "prettier": "^2.5.1",

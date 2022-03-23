@@ -43,10 +43,15 @@ export const exportAction = (options) => {
       // Header row
       ws.cell(1, 1).string("Key");
       ws.cell(1, 2).string("Base Text");
-      ws.cell(1, 3).string(`${lng.name} Text`);
+      ws.cell(1, 3).string(`Translated Text`);
+
+      // add language code to allow round tripping on import
+      ws.cell(2, 1).string("__code__");
+      ws.cell(2, 2).string(options.base);
+      ws.cell(2, 3).string(l);
 
       // each base key row
-      let row = 2;
+      let row = 3;
       Object.keys(baseLng).forEach((k) => {
         ws.cell(row, 1).string(k);
         ws.cell(row, 2).string(baseLng[k]);

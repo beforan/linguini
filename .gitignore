@@ -1,3 +1,7 @@
+# default paths
+translations.xlsx
+locales
+
 # Logs
 logs
 *.log
