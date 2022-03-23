@@ -1,0 +1,26 @@
+{
+  "name": "linguini",
+  "version": "1.0.0",
+  "description": "A node.js cli tool for converting between i18next style json resources and xlsx files to send for localisation",
+  "module": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beforan/linguini.git"
+  },
+  "author": "Jon Couldridge <jon@jon.gg>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beforan/linguini/issues"
+  },
+  "homepage": "https://github.com/beforan/linguini#readme",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "excel4node": "^1.7.2",
+    "lodash-es": "^4.17.21"
+  }
+}
