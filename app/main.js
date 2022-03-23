@@ -6,7 +6,7 @@ import xl from "excel4node";
 import { flattenLanguage } from "./helpers/flattenLanguage.js";
 
 export const require = createRequire(import.meta.url);
-const pkg = require("./package.json");
+const pkg = require("../package.json");
 
 program
   .name(pkg.name)
